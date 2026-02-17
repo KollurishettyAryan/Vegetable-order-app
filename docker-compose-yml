@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  vegetable-app:
+    build: .
+    image: vegetable-app:latest
+    container_name: vegetable-app
+    ports:
+      - "3000:3000"
